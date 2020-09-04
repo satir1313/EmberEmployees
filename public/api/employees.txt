@@ -1,0 +1,20 @@
+{
+  "data":[
+    {
+        "employeeImageSrc": "/images/1.jpg",
+        "employeeImageLable": "Employee 1 image",
+        "name": "John Nash",
+        "department": "IT",
+	"email": "john.n@company.com.au",
+	"employee_id": 1
+    },
+    {
+        "employeeImageSrc": "/images/2.jpg",
+        "employeeImageLable": "Employee 2 image",
+        "name": "Isac Newton",
+        "department": "Accounting",
+	"email": "isac.n@company.com.au",
+	"employee_id": 2
+    },
+  ]   
+}

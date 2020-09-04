@@ -1,0 +1,16 @@
+<h3>
+    Employee List
+</h3>
+
+<main class="container"> 
+    <div class="row">
+        <div class="col-md-6">
+            {{#each @model as |employees|}}
+                <div class="employee-list-page">
+                    <EmployeeImage @employee={{employees}}/>        
+                </div>
+                <EmployeeDetailsList @employee={{employees}}/> 
+            {{/each}}
+        </div>
+    </div>
+</main>
